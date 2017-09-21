@@ -1,11 +1,212 @@
 /*
-Theme Name: Beaver Builder Child Theme
-Theme URI: http://www.wpbeaverbuilder.com
+Theme Name: Rowland Air
+Theme URI: http://www.rowlandair.com/
 Version: 1.0
-Description: An example child theme that can be used as a starting point for custom development.
-Author: The Beaver Builder Team
-Author URI: http://www.fastlinemedia.com
+Description: Roland Air - Child - Beaver Builder Framework
+Author: Daniel Hale
+Author URI: http://www.wsiebiz.com
 template: bb-theme
 */
 
-/* Add your custom styles here... */ 
+/* COLORS
+
+BLUE - #2478d6
+YELLOW - #f19400
+
+*/
+
+/* TOP HEADER */
+
+header.fl-page-header {
+  z-index: 10;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+
+.fl-page-nav-right .fl-page-header-wrap {
+  border: none;
+}
+
+.fl-page-bar {
+  border: none;
+  color: transparent;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.fl-page-bar-text {
+  float: right;
+}
+
+#top-CTA-mobile {
+  display: none;
+}
+
+#top-CTA {
+  text-align: right;
+  width: 260px;
+  float: right;
+  position: relative;
+  line-height: 24px;
+}
+
+.call {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.phone {
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #ff1331;
+}
+
+.estimates {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: #ff1331;
+}
+
+.fl-page-header-container {
+  padding: 0;
+}
+
+/* NAVAGATION */
+
+.fl-page-header-wrap {
+  background: url(http://dev.rowlandair.com/wp-content/uploads/2017/09/nav-bg.png) center repeat-x;
+}
+
+.fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-ancestor > a, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-parent > a, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-item > a {
+  color: #ffffff;
+}
+
+.fl-page-nav-right .fl-page-nav ul.navbar-nav {
+  float: left !important;
+}
+
+.fl-page-nav-right .fl-page-nav-wrap .navbar-nav li > a {
+  color: #252525;
+}
+
+.fl-page-nav-wrap {
+  padding: 7px 0 0 0;
+}
+
+i.fa-bars {
+  color: #000000 !important;
+}
+
+/* SLIDER ROW - HOME */
+#fl-post-13 {
+      margin-top: -108px;
+}
+
+/* OUR SERVICES ROW - HOME */
+
+.fl-photo-caption {
+      font-size: 36px;
+      font-family: "Oswald", sans-serif;
+      color: #ffffff;
+      margin-top: 25px;
+      font-weight: 600;
+      letter-spacing: 2px;
+}
+
+/* MEDIA QU */
+
+@media only screen and (max-width: 1241px) {
+  .fl-page-nav .navbar-nav li > a {
+        padding: 15px 6px;
+  }
+
+  #top-CTA {
+        line-height: 20px;
+  }
+  .call {
+        font-size: 20px;
+  }
+
+  .phone {
+    font-size: 25px;
+  }
+
+  .estimates {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.fl-page-nav .navbar-nav li > a {
+      padding: 15px 4px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  #fl-post-13 {
+        margin-top: -111px;
+  }
+
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav .navbar-toggle {
+    top: 119px;
+  }
+
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav-collapse {
+    border: none;
+    background: #2478D6;
+  }
+
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav-collapse ul.navbar-nav > li > a {
+    color: #ffffff;
+  }
+
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav-collapse ul.navbar-nav > li.current-menu-item > a {
+      color: #f1961f;
+  }
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav-collapse ul.navbar-nav > li > a:hover, .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav-collapse ul.navbar-nav > li > a:focus {
+      color: #f1961f;
+  }
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+  .fl-logo-img {
+    max-width: 65%;
+  }
+
+  .fl-page-nav-wrap {
+    padding: 7px 0 0 0;
+    margin-top: 30px !important;
+}
+
+  .fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav .navbar-toggle {
+    top: 93px;
+}
+
+#top-CTA {
+  display: none;
+}
+
+#top-CTA-mobile {
+  display: block;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.estimates-mobile, .phone-mobile {
+  color: #ff1331;
+}
+
+#fl-post-13 {
+    margin-top: -80px;
+}
+
+}
