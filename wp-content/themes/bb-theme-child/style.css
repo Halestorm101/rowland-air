@@ -211,6 +211,10 @@ i.fa-bars {
     margin-right: 8px;
 }
 
+.social i:hover {
+  background-color: #b1b1b1;
+}
+
 .social i.fa-facebook {
       padding-left: 12px;
 }
@@ -287,7 +291,9 @@ i.fa-bars {
   }
 }
 
-@media only screen and (max-width: 767px) {
+
+
+@media only screen and (max-width: 768px) {
   .choose-us {
     margin-top: 50px;
   }
@@ -297,9 +303,25 @@ i.fa-bars {
     float: none;
   }
 
+  .seal-txt {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .social i {
+    margin: 0;
+  }
 }
 
-
+@media only screen and (max-width: 736px) {
+  .fl-node-59c56bbfc4402 .fl-photo-align-left {
+    text-align: center;
+  }
+  .seal-txt {
+    margin-top: -29px;
+    margin-bottom: 57px;
+    padding: 10px;
+  }
+}
 
 @media only screen and (max-width: 414px) {
   .fl-logo-img {
@@ -331,6 +353,14 @@ i.fa-bars {
 
 #fl-post-13 {
     margin-top: -80px;
+}
+
+.fl-node-59c56bbfc4402 .fl-photo-align-left {
+  text-align: center;
+}
+.seal-txt {
+  margin-bottom: 75px;
+  padding: 10px;
 }
 
 }
